@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+}
+
+input{
+    border: 3px solid grey;
+    width: 800px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+select{
+    padding: 0.5rem;
+    width: 800px;
+}
+
+.boton a{
+    background-color: rgb(117, 41, 149);
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
